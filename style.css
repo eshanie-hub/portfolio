@@ -18,8 +18,8 @@ body{
 }
 
 .wrapper{
-    margin-left: 450px;
-    margin-right: 250px;
+    margin-left: 250px;
+    margin-right: 50px;
     
 }
 .navigation{
@@ -140,8 +140,9 @@ h1{
 }
 
 header{
-    background-size:cover;
-    height: 100vh;
+    max-width:100%;
+    height:auto;
+    padding-bottom: 100px;
     background: var(--dark-color);
     
 }
@@ -165,7 +166,7 @@ header{
     text-decoration: none;
     font-family: 'Poppins';
     font-weight: bold;
-    font-size: 25px;
+    font-size: 2.5rem;
     color: black;
 }
 
@@ -178,7 +179,7 @@ header{
 h2{
     font-family: 'Playfair Display';
     font-weight: bold;
-    font-size: 96px;
+    font-size: 9.6rem;
     text-transform: uppercase;
     text-align: center;
     
@@ -186,8 +187,8 @@ h2{
 
 p{
     font-family: 'Poppins';
-    font-size: 25px;
-    line-height: 38px;
+    font-size: 2.5rem;
+    line-height: 3.8rem;
 
 }
 
@@ -218,8 +219,8 @@ p{
 .skill .container .left p{
     font-family: 'Poppins';
     font-weight: bold;
-    font-size: 24px;
-    line-height: 23px;
+    font-size: 2.4rem;
+    line-height: 2.3rem;
     color: white;
     text-align: center;
 }
@@ -233,7 +234,7 @@ figcaption{
     text-align: center;
     display: block;
     font-family: 'Poppins';
-    font-size: 15px;
+    font-size: 1.5rem;
 
 }
 
@@ -273,7 +274,7 @@ footer a{
     text-decoration: none;
     font-family: 'Poppins';
     font-weight: semibold;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .links{
@@ -295,3 +296,207 @@ footer a{
     
 }
 
+@media (max-width: 1440px) and (min-width: 1020px){
+    html, body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+       
+    }
+
+    .wrapper{
+        margin-left: 250px;
+        
+        
+        overflow-x: hidden;
+    }
+
+    h1{
+        font-size: 11rem;
+        
+    }
+
+    .sub{
+        font-size: 8rem;
+        line-height: 10rem;
+        text-transform: uppercase;
+        padding: 0;
+        
+    
+    }
+
+    .navigation{
+       height: 35vh;
+    }
+    .btns{
+        padding: 10px 32px;
+    }
+
+    .gap{
+        gap: 20px;
+    }
+    .skill .container .right{
+        padding-top: 20px;
+    }
+
+    .container{
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    
+
+    .project .container.right img{
+        
+        order: 1;
+    }
+
+    .project .container.right .txt{
+        order: 2;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1020px){
+
+    html, body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+       
+    }
+
+    .wrapper{
+        margin-left: 250px;
+        overflow-x: hidden;
+        
+        
+    }
+    .btns{
+        padding: 10px 32px;
+    }
+
+    h1{
+        font-size: 5rem;
+        
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+
+    .sub{
+        font-size: 3rem;
+        line-height: 4rem;
+        text-transform: uppercase;
+        padding: 0;
+        
+    
+    }
+
+    .gap{
+       flex-direction: column;
+    }
+
+    .btns{
+        border-radius: 38px;
+        padding: 10px 52px;
+        
+        font-size: 1rem;
+        
+    }
+
+    .position{
+        margin-top: 30px;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+        line-height: 2.7rem;
+        
+    
+    }
+
+    .skill .container{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+       flex-direction: column;
+    }
+
+    .skill .container .left{
+        
+        padding: 10px;
+        width: 130px;
+    }
+
+    .skill .container .left p{
+        font-size: 1rem;
+        line-height: 2rem;
+
+    }
+
+    .sect-sub{
+        margin-top: 10px;
+    }
+
+    .skill .container .right{
+        padding-top: 20px;
+        flex-direction: column;
+        
+    }
+
+    figcaption{
+        
+        font-size: 1rem;
+    
+    }
+
+    
+    .container{
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    
+    .project .container img{
+        width: 80%;
+        text-align: center;
+    }
+    .project .container.right img{
+        
+        order: 1;
+    }
+
+    .project .container.right .txt{
+        order: 2;
+    }
+
+    
+
+     .links{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+       margin-left: -50px;
+       
+        
+        
+    }
+
+    footer a{
+        padding-bottom:-100px;
+        font-size: 1rem;
+    }
+
+    
+    
+}
