@@ -297,6 +297,9 @@ footer a{
     
 }
 
+
+/*tab*/
+
 @media (max-width: 1440px) and (min-width: 1020px){
     html, body{
         width: 100%;
